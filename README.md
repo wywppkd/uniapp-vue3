@@ -33,12 +33,16 @@
 │   ├── env.d.ts
 │   ├── main.ts
 │   ├── manifest.json
+│   ├── assets # 静态资源
+│   │   └── img # 图片资源
+│   │   └── css # css资源
+│   ├── component # 自定义组件
 │   ├── pages # 页面
 │   │   └── index
 │   │       └── index.vue
 │   ├── pages.json
 │   ├── shime-uni.d.ts
-│   ├── static
+│   ├── static # 类似 public 目录, 不会被编译
 │   │   └── logo.png
 │   ├── stores # 全局状态仓库
 │   │   └── counter.ts

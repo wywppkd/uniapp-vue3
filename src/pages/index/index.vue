@@ -1,6 +1,6 @@
 <template>
   <view>
-    <image class="logo" src="/static/logo.png" />
+    <image class="logo" src="~@/assets/img/photo-1.jpeg" />
     <view>
       <text class="title">{{ title }}</text>
       <view @click="handleAdd">{{ counter.count }}</view>
