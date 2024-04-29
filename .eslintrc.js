@@ -6,6 +6,8 @@ module.exports = {
   globals: {
     wx: true,
     uni: true,
+    getCurrentPages: true, // 微信小程序内置
+    Component: true, // 微信小程序内置
   },
   extends: [
     'eslint:recommended',
