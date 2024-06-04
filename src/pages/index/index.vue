@@ -3,7 +3,7 @@
     <image class="logo" src="~@/assets/img/photo-1.jpeg" />
     <view>
       <text class="title">{{ title }}</text>
-      <view @click="handleAdd">{{ counter.count }}</view>
+      <button @click="handleAdd">{{ counter.count }}</button>
     </view>
   </view>
 </template>
@@ -16,6 +16,7 @@ const title = ref('Hello');
 
 const counter = useCounterStore();
 function handleAdd() {
+  console.log('🚀 ~ file: index.vue:19 ~ handleAdd ~ handleAdd:');
   counter.increment();
 }
 
