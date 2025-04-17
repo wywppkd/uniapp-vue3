@@ -8,7 +8,7 @@ export default defineConfig({
     port: 5100,
     proxy: {
       '/api': {
-        target: 'https://test-cloud.zidayun.com', // TODO: 修改为自己的后端地址
+        target: 'https://yourapidomain.com', // TODO: 修改为自己的后端地址
         changeOrigin: true,
         rewrite: (p) => p.replace(/^\/api/, ''),
       },
