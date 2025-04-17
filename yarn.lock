@@ -1408,6 +1408,19 @@
     "@vue/shared" "3.4.21"
     estree-walker "^2.0.2"
 
+"@dcloudio/uni-mp-harmony@3.0.0-4050720250324001":
+  version "3.0.0-4050720250324001"
+  resolved "https://registry.npmmirror.com/@dcloudio/uni-mp-harmony/-/uni-mp-harmony-3.0.0-4050720250324001.tgz#68699209415ea70da6cbcecd4ff34df849376896"
+  integrity sha512-gRqDOhJ+yMDWX7A+9OT4hyxFEZ5bzuTOtFsiT0mSGyFmNfDSnu4xV5HJ2QvUyz3Zrncz7pGzNo6UpQrimTPRBg==
+  dependencies:
+    "@dcloudio/uni-cli-shared" "3.0.0-4050720250324001"
+    "@dcloudio/uni-mp-toutiao" "3.0.0-4050720250324001"
+    "@dcloudio/uni-mp-vite" "3.0.0-4050720250324001"
+    "@dcloudio/uni-mp-vue" "3.0.0-4050720250324001"
+    "@dcloudio/uni-quickapp-webview" "3.0.0-4050720250324001"
+    "@dcloudio/uni-shared" "3.0.0-4050720250324001"
+    "@vue/shared" "3.4.21"
+
 "@dcloudio/uni-mp-jd@3.0.0-4050720250324001":
   version "3.0.0-4050720250324001"
   resolved "https://registry.npmmirror.com/@dcloudio/uni-mp-jd/-/uni-mp-jd-3.0.0-4050720250324001.tgz#d5ea13c9c298b702f7121f2bc865f4e717ea6785"
